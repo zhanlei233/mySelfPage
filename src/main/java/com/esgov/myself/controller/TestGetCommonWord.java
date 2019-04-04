@@ -3,7 +3,7 @@ package com.esgov.myself.controller;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Test{
+public class TestGetCommonWord{
 
 	public static void main(String[] args) {
 		String s = "This is C programming text ";
@@ -11,6 +11,11 @@ public class Test{
 		getCommonWord(s,t);
 	}
 	
+	/**
+	 * 返回两个字符串的第二长公共单词
+	 * @param s
+	 * @param t
+	 */
 	public static void getCommonWord(String s, String t) {
 		//1.对字符串按照空格截串成数组
 		String [] strs = s.split(" ");
