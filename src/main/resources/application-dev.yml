@@ -1,0 +1,8 @@
+server:
+    port: 8755
+spring:
+    application:
+        name: esgov-smartform-smartformweb
+    mvc:
+        async:
+            request-timeout: 60000
