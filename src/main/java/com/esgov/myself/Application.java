@@ -1,4 +1,4 @@
-package com.esgov.smartform;
+package com.esgov.myself;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

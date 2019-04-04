@@ -1,4 +1,4 @@
-package com.esgov.smartform.controller;
+package com.esgov.myself.controller;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class Test2 {
 	public static void main(String[] args) {
-		getSum(17);
+		getSum(15);
 	}
 	
 	public static void getSum(int num) {
